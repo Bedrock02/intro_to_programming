@@ -1,0 +1,140 @@
+###################
+#### Lecture 1: ###
+###################
+1. What is programming?
+2. Who programs or codes?
+3. Famous people that code?
+4. Who doesn't code?
+5. Who can code?
+6. Why should you code?
+7. Education behind coding?
+8. Building on the Basics
+
+
+
+
+###################
+#### Lecture 2: ###
+###################
+
+#### Numeric Types - int, float, complex
+https://docs.python.org/3.5/library/stdtypes.html#numeric-types-int-float-complex
+NOTE: discuss variables
+x + y sum of x and y     
+x - y difference of x and y    
+x * y product of x and y     
+x / y quotient of x and y    
+x // y  floored quotient of x and y (1)  
+x % y remainder of x / y  (2)  
+-x  x negated    
++x  x unchanged    
+abs(x)  absolute value or magnitude of x    abs()
+int(x)  x converted to integer  (3)(6)  int()
+float(x)  x converted to floating point (4)(6)  float()
+#### complex(re, im) a complex number with real part re, imaginary part im. im defaults to zero. (6) complex()
+c.conjugate() conjugate of the complex number c    
+divmod(x, y)  the pair (x // y, x % y)  (2) divmod()
+pow(x, y) x to the power y  (5) pow()
+x ** y  x to the power y
+
+NOTE: Discuss print method
+
+# Q14. What does z evaluate to?
+z = 2 + 3 * 4
+
+# Q15. What does z evaluate to?
+z = (2 + 3) * 4
+
+# Q16. What does z evaluate to?
+z = 2 * (4 - 1)
+
+# Q17. What does z evaluate to?
+z = -(2 + 3)
+
+
+
+#### Strings
+String manipulation
+
+1. Strings are created in differetne ways of type str
+1.1 Single quotes
+1.2 Double Quotes
+1.3 Triple Quotes: expands over multiple lines, mostly used for comments
+
+https://docs.python.org/3.5/library/stdtypes.html#text-sequence-type-str
+"Break it down like Tetris"
+
+# indicate \n
+# string indexes
+# slicing
+# len
+# count
+  # Finds out how many characters are in a string
+  # "banana".count("n")
+  # banana".count('n',3)
+  # "banana".count('n',3,4)
+  # "banana".count('n',3,5)
+# endswith
+  # suffix to see if it is true or not
+# find
+  # find where your substring starts
+# format
+  "We had {} Bananas, and now I ate {}".format(7, 3)
+# split
+# word.replace()
+# lower
+# upper
+# capitalize
+# strip
+# Concatonation
+# join
+# isalpha()
+# isdigit()
+
+text = """Now this is a story all about how
+My life got flipped-turned upside down
+And I'd like to take a minute
+Just sit right there
+I'll tell you how I became the prince of a town called Bel-Air
+
+In west Philadelphia born and raised
+On the playground was where I spent most of my days
+Chillin' out maxin' relaxin' all cool
+And all shooting some b-ball outside of the school
+When a couple of guys who were up to no good
+Started making trouble in my neighborhood
+I got in one little fight and my mom got scared
+She said, "You're movin' with your auntie and uncle in Bel-Air."
+
+I begged and pleaded with her day after day
+But she packed my suitcase and sent me on my way
+She gave me a kiss and then she gave me my ticket.
+I put my Walkman on and said, "I might as well kick it."
+
+First class, yo, this is bad
+Drinking orange juice out of a champagne glass.
+Is this what the people of Bel-Air living like?
+Hmm, this might be alright.
+
+But wait I hear they're prissy, bourgeois, all that
+Is this the type of place that they just send this cool cat?
+I don't think so
+I'll see when I get there
+I hope they're prepared for the prince of Bel-Air"""
+
+###################
+#### Lecture 4: ###
+###################
+
+Conditionals. Flow control
+If some thing is true then action
+
+While looks, infinite until false
+For look, iterative look over a collection
+
+###################
+#### Lecture 5: ###
+###################
+Functions
+pass by reference and passing by value
+
